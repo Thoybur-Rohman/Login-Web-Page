@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--- UTF-8 is the most widely used way to represent Unicode text in web pages --->
+    <title>َLogin Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<form class="box" action="index.html" method="post">
+
+  <h1>Login</h1>
+  <input type="text" name="text" placeholder="Username" id="username">
+   <!--- Texy is what is being taken from the user  , place holder is what appears
+    in the text , id is what we use for javascript--->
+  <input type="password" name="password" placeholder="Password" id="password">
+  <input type="submit" name="submit" value="Login" onclick="validate()">
+</form>
+
+<script src="index.js"></script>
+  </body>
+</html>
