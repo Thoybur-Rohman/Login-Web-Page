@@ -9,4 +9,4 @@ Login page using HTML , CSS , JS
 ## What i used used: 
 - HTML
 - CSS [style/Presentation]
-- Javascript [Logic/Working of calculator]
+- Javascript [Logic/Working of Login]
